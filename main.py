@@ -64,7 +64,7 @@ def echo_all(message):
         if not check_status(url_plotter_one):
             bot.reply_to(message, "Ошибка исправлена, плоттер 1 продолжает работу")
 
-    if message.text == "/done_plotter_one":
+    if message.text == "/done_plotter_two":
         if not check_status(url_plotter_two):
             bot.reply_to(message, "Ошибка исправлена, плоттер 2 продолжает работу")
 
